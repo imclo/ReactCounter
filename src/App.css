@@ -32,9 +32,10 @@ header img {
 main {
   padding: 20px 40px;
   display: flex;
+  flex-direction: column;
 }
 
-main div {
+main > div {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -52,25 +53,35 @@ p {
   border-radius: 15px;
   border: none;
   text-align: center;
+  margin-top: 30px;
 }
 
 .minus {
   width: 53px;
   height: 60px;
+  border: none;
 }
 
 .plus {
   width: 45px;
   height: 50px;
+  border: none;
 }
 
 .button2 {
   background-color: #5c48d3;
   width: 150px;
-  height: 150px;
+  height: 60px;
   border-radius: 15px;
   border: none;
   cursor: pointer;
+  color: white;
+  font-family: "MontSerrat", sans-serif;
+  font-size: 30px;
+}
+
+.reset {
+  padding-top: 36px;
 }
 
 footer {

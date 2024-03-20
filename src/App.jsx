@@ -16,32 +16,36 @@ function App() {
       </header>
       <main>
         <div>
-          <button
-            onClick={() => {
-              setCount(count - 1);
-            }}
-          >
-            <img className="minus" src={minus} alt="minus" />
-          </button>
-          <p>0</p>
-          <button
-            onClick={() => {
-              setCount(count + 1);
-            }}
-          >
-            <img className="plus" src={plus} alt="plus" />
-          </button>
+          {count > 0 && (
+            <button
+              onClick={() => {
+                setCount(count - 1);
+              }}
+            >
+              <img className="minus" src={minus} alt="minus" />
+            </button>
+          )}
+          <p>{count}</p>
+          {count < 10 && (
+            <button
+              onClick={() => {
+                setCount(count + 1);
+              }}
+            >
+              <img className="plus" src={plus} alt="plus" />
+            </button>
+          )}
         </div>
-        {/* <div>
+        <div className="reset">
           <button
             className="button2"
             onClick={() => {
-              setCount(!count);
+              setCount(0);
             }}
           >
             Reset
           </button>
-        </div> */}
+        </div>
       </main>
       <footer>
         Made with <span>React</span> at <span>Le Reacteur</span> by{" "}
