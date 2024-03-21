@@ -1,8 +1,11 @@
-# React + Vite
+Nous allons commencer par manipuler les états dans React avec un exercice plutôt facile.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vous devrez créer :
 
-Currently, two official plugins are available:
+un compteur avec un bouton + et un bouton -
+un bouton Reset pour remettre le compteur à zéro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bonus
+Faire disparaître le - quand le compteur affiche 0
+Faire disparaître le + quand le compteur affiche 10
+Rendre le projet responsive
