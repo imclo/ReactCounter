@@ -22,7 +22,7 @@ function App() {
                 setCount(count - 1);
               }}
             >
-              <img className="minus" src={minus} alt="minus" />
+              -{/* <img className="minus" src={minus} alt="minus" /> */}
             </button>
           )}
           <p>{count}</p>
@@ -32,7 +32,7 @@ function App() {
                 setCount(count + 1);
               }}
             >
-              <img className="plus" src={plus} alt="plus" />
+              +{/* <img className="plus" src={plus} alt="plus" /> */}
             </button>
           )}
         </div>

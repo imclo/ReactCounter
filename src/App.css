@@ -49,14 +49,26 @@ p {
   color: white;
   background-color: #5c48d3;
   width: 150px;
-  height: 150px;
+  height: 100px;
   border-radius: 15px;
   border: none;
   text-align: center;
   margin-top: 30px;
 }
 
-.minus {
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #5c48d3;
+  cursor: pointer;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-family: "MontSerrat", sans-serif;
+}
+
+/* .minus {
   width: 53px;
   height: 60px;
   border: none;
@@ -66,7 +78,7 @@ p {
   width: 45px;
   height: 50px;
   border: none;
-}
+} */
 
 .button2 {
   background-color: #5c48d3;
